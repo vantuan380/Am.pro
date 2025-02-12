@@ -550,25 +550,25 @@ localhost = 127.0.0.1
 ^http://(www.)?google.cn https://www.google.com 302
 
 [Script]
-Alightmotion = type=http-response,script-path=https://N9dev-dev.github.io/SL/scripts/AlightMotion.js,pattern=https://us-central1-alight-creative.cloudfunctions.net/getAccountStatusAndLicenses,max-size=131072,requires-body=true,timeout=20,enable=true
-PicsArt = type=http-response,script-path=https://N9dev-dev.github.io/SL/scripts/PicsArt.js,pattern=^https:\/\/api\.picsart\.com\/gw-v2\/shop\/subscription\/apple\/purchases,max-size=131072,requires-body=true,timeout=20,enable=true
-VSCO = type=http-response,script-path=https://N9dev-dev.github.io/SL/scripts/VSCO.js,pattern=^https?:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/?(.*?)*$),max-size=131072,requires-body=true,timeout=20,enable=true
-KineMaster = type=http-response,script-path=https://N9dev-dev.github.io/SL/scripts/KineMaster.js,pattern=^https:\/\/api-account\.kinemasters\.com\/v2\/user\/subscribe,max-size=131072,requires-body=true,timeout=20,enable=true
-SandboxPixelArt = type=http-response,script-path=https://N9dev-dev.github.io/SL/scripts/SandBox.js,pattern=https://api.sandbox.love/accounts/current,max-size=131072,requires-body=true,timeout=20,enable=true
-VivaCut = type=http-response,script-path=https://N9dev-dev.github.io/SL/scripts/VivaCut.js,pattern=https://N9dev-dev.github.io/SL/scripts/VivaCut.js,max-size=131072,requires-body=true,timeout=20,enable=true
-funimate = type=http-response,script-path=https://raw.githubusercontent.com/iSteal-it/script/main/Funimate.json,pattern=^https:\/\/api\.funimate\.com\/users\/me,max-size=131072,requires-body=true,timeout=20,enable=true
-Photomath = type=http-response,script-path=https://raw.githubusercontent.com/iSteal-it/script/main/Photomath.json,pattern=^https:\/\/lapi\.photomath\.net\/v4\/me,max-size=131072,requires-body=true,timeout=20,enable=true
-Photoshop = type=http-response,script-path=https://raw.githubusercontent.com/iSteal-it/script/main/Photoshop.json,pattern=^https:\/\/lcs-mobile-cops\.adobe\.io\/mobile_profile,max-size=131072,requires-body=true,timeout=20,enable=true
-Lightroom = type=http-response,script-path=https://raw.githubusercontent.com/iSteal-it/script/main/Lightroom.json,pattern=^https:\/\/photos\.adobe\.io\/v2\/accounts,max-size=131072,requires-body=true,timeout=20,enable=true
-Djay = type=http-response,script-path=https://raw.githubusercontent.com/iSteal-it/script/main/djay.json,pattern=^https:\/\/app\.algoriddim\.com\/api\/v1\/validate-receipt,max-size=131072,requires-body=true,timeout=20,enable=true
-Vllo = type=http-response,script-path=https://raw.githubusercontent.com/iSteal-it/script/main/vllo.json,pattern=^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt,max-size=131072,requires-body=true,timeout=20,enable=true
-vizmato = type=http-response,script-path=https://raw.githubusercontent.com/iSteal-it/script/main/vizmato.json,pattern=^https:\/\/web\.vizmato\.com\/itunesreceipt_v5\.php,max-size=131072,requires-body=true,timeout=20,enable=true
-reface = type = http-response, script-path=https://raw.githubusercontent.com/iSteal-it/script/main/reface.json,pattern=^https:\/\/api\.reface\.video\/api\/reface\/v1\/iosSubscription,requires-body=true,timeout=20,enable=true
-mojo = type = http-response, script-path=https://raw.githubusercontent.com/iSteal-it/script/main/mojo.json,pattern=^https?:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[a-zA-Z0-9_-]*$),max-size=131072,requires-body=true,timeout=20,enable=true
-bussu = type = http-response, script-path=https://raw.githubusercontent.com/iSteal-it/script/main/bussu.json,pattern=^https:\/\/api\.busuu\.com\/users\/me,max-size=131072,requires-body=true,timeout=20,enable=true
-calm = type = http-response,script-path=https://raw.githubusercontent.com/iSteal-it/script/main/calm.json,pattern=^https:\/\/api\.calm\.com\/me$,requires-body=true,timeout=20,enable=true
-unfold = type=http-response,script-path=https://raw.githubusercontent.com/iSteal-it/script/main/unfoldtest.json,pattern=^https:\/\/api\.unfold\.app\/v1\/ios\/receipts,requires-body=true,timeout=20,enable=true
-mosaic = type=http-response,script-path=https://raw.githubusercontent.com/iSteal-it/script/main/mosaic.json,pattern=^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt$,requires-body=true,timeout=20,enable=true
+Alightmotion = type=http-response,script-path=https://N9dev-dev.github.io/SL/scripts/AlightMotion.js,pattern=https://us-central1-alight-creative.cloudfunctions.net/getAccountStatusAndLicenses,max-size=131072,requires-body=true,timeout=120,enable=true
+PicsArt = type=http-response,script-path=https://N9dev-dev.github.io/SL/scripts/PicsArt.js,pattern=^https:\/\/api\.picsart\.com\/gw-v2\/shop\/subscription\/apple\/purchases,max-size=131072,requires-body=true,timeout=120,enable=true
+VSCO = type=http-response,script-path=https://N9dev-dev.github.io/SL/scripts/VSCO.js,pattern=^https?:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/?(.*?)*$),max-size=131072,requires-body=true,timeout=120,enable=true
+KineMaster = type=http-response,script-path=https://N9dev-dev.github.io/SL/scripts/KineMaster.js,pattern=^https:\/\/api-account\.kinemasters\.com\/v2\/user\/subscribe,max-size=131072,requires-body=true,timeout=120,enable=true
+SandboxPixelArt = type=http-response,script-path=https://N9dev-dev.github.io/SL/scripts/SandBox.js,pattern=https://api.sandbox.love/accounts/current,max-size=131072,requires-body=true,timeout=120,enable=true
+VivaCut = type=http-response,script-path=https://N9dev-dev.github.io/SL/scripts/VivaCut.js,pattern=https://N9dev-dev.github.io/SL/scripts/VivaCut.js,max-size=131072,requires-body=true,timeout=120,enable=true
+funimate = type=http-response,script-path=https://raw.githubusercontent.com/iSteal-it/script/main/Funimate.json,pattern=^https:\/\/api\.funimate\.com\/users\/me,max-size=131072,requires-body=true,timeout=120,enable=true
+Photomath = type=http-response,script-path=https://raw.githubusercontent.com/iSteal-it/script/main/Photomath.json,pattern=^https:\/\/lapi\.photomath\.net\/v4\/me,max-size=131072,requires-body=true,timeout=120,enable=true
+Photoshop = type=http-response,script-path=https://raw.githubusercontent.com/iSteal-it/script/main/Photoshop.json,pattern=^https:\/\/lcs-mobile-cops\.adobe\.io\/mobile_profile,max-size=131072,requires-body=true,timeout=120,enable=true
+Lightroom = type=http-response,script-path=https://raw.githubusercontent.com/iSteal-it/script/main/Lightroom.json,pattern=^https:\/\/photos\.adobe\.io\/v2\/accounts,max-size=131072,requires-body=true,timeout=120,enable=true
+Djay = type=http-response,script-path=https://raw.githubusercontent.com/iSteal-it/script/main/djay.json,pattern=^https:\/\/app\.algoriddim\.com\/api\/v1\/validate-receipt,max-size=131072,requires-body=true,timeout=120,enable=true
+Vllo = type=http-response,script-path=https://raw.githubusercontent.com/iSteal-it/script/main/vllo.json,pattern=^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt,max-size=131072,requires-body=true,timeout=120,enable=true
+vizmato = type=http-response,script-path=https://raw.githubusercontent.com/iSteal-it/script/main/vizmato.json,pattern=^https:\/\/web\.vizmato\.com\/itunesreceipt_v5\.php,max-size=131072,requires-body=true,timeout=120,enable=true
+reface = type = http-response, script-path=https://raw.githubusercontent.com/iSteal-it/script/main/reface.json,pattern=^https:\/\/api\.reface\.video\/api\/reface\/v1\/iosSubscription,requires-body=true,timeout=120,enable=true
+mojo = type = http-response, script-path=https://raw.githubusercontent.com/iSteal-it/script/main/mojo.json,pattern=^https?:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[a-zA-Z0-9_-]*$),max-size=131072,requires-body=true,timeout=120,enable=true
+bussu = type = http-response, script-path=https://raw.githubusercontent.com/iSteal-it/script/main/bussu.json,pattern=^https:\/\/api\.busuu\.com\/users\/me,max-size=131072,requires-body=true,timeout=120,enable=true
+calm = type = http-response,script-path=https://raw.githubusercontent.com/iSteal-it/script/main/calm.json,pattern=^https:\/\/api\.calm\.com\/me$,requires-body=true,timeout=120,enable=true
+unfold = type=http-response,script-path=https://raw.githubusercontent.com/iSteal-it/script/main/unfoldtest.json,pattern=^https:\/\/api\.unfold\.app\/v1\/ios\/receipts,requires-body=true,timeout=120,enable=true
+mosaic = type=http-response,script-path=https://raw.githubusercontent.com/iSteal-it/script/main/mosaic.json,pattern=^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt$,requires-body=true,timeout=120,enable=true
 
 [MITM]
 ca-passphrase = Shadowrocket
